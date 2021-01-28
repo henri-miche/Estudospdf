@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.ContainerCima{
+    display: flex;
+    flex-direction: row;
+}
+.Inteira{
+    border:1px solid black;
+    width: 800px;
+    height: 30px;
+    background-color: #bebebe;
+    margin-top: 5px;
+    text-align: center;
+}
+.Meia{
+    border:1px solid black;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.InteiraReal{
+    border:1px solid black;
+    width: 865px;
+    height: 30px;
+    text-align: center;
+    margin-left: 5px;
+}
